@@ -1,0 +1,68 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw 20vw;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fb.light,
+.twitter.light,
+.ig.light,
+.yt.light {
+  text-align: center;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.fb {
+  border-top: 5px solid hsl(208, 92%, 53%);
+}
+
+.twitter {
+  border-top: 5px solid hsl(203, 89%, 53%);
+}
+
+.ig {
+  margin: 0px;
+  padding: 10px;
+}
+.insta {
+  background-image: linear-gradient(
+    to right,
+    hsl(37, 97%, 70%),
+    hsl(329, 70%, 58%)
+  );
+  padding-top: 5px;
+}
+
+.yt {
+  border-top: 5px solid hsl(348, 97%, 39%);
+}
+
+.nickname {
+  display: flex;
+  justify-content: center;
+}
+
+.followers {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+.followers-number {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0px;
+}
+.ig .nickname {
+  margin-top: 5px;
+}
+
+.followers-today {
+  font-weight: 700;
+  color: hsl(163, 72%, 41%);
+}
+.red {
+  color: hsl(356, 69%, 56%);
+}
