@@ -1,15 +1,19 @@
 const checkbox = document.querySelector(".checkbox");
 const body = document.querySelector(".body");
-const container = document.querySelector(".container");
-const containers = container.querySelectorAll(".light");
+const container = document.querySelectorAll(".light");
 
 checkbox.addEventListener("change", function () {
   if (this.checked) {
-    console.log("checked");
     body.classList.add("darkMode");
-    containers.classList.add("darkMode");
+
+    container.forEach((element) => {
+      element.classList.add("darkMode1");
+    });
   } else {
-    console.log("not checked");
     body.classList.remove("darkMode");
+
+    container.forEach((element) => {
+      element.classList.remove("darkMode1");
+    });
   }
 });

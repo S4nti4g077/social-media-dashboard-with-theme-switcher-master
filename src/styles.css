@@ -71,7 +71,12 @@ body {
   background-color: hsl(230, 17%, 14%);
   color: white;
 }
-
+.fb.light.darkMode1,
+.twitter.light.darkMode1,
+.yt.light.darkMode1,
+.ig.light.darkMode1 {
+  background-color: hsl(228, 28%, 20%);
+}
 /* The switch - the box around the slider */
 .switch {
   position: relative;
