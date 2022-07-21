@@ -12,19 +12,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="/src/styles.css">
+<link rel="stylesheet" href="/src/buttonStyles.css">
 </head>
 <body class="body">
-
-  <h1>Social Media Dashboard</h1> 
-  <h4>Total Followers: 23,004</h4> 
-
-  <h4>Dark Mode 
+<div class="dashboard">
+  <h1>Social Media Dashboard<p>Total Followers: 23,004</p></h1> 
+  
 <!-- Rounded switch -->
+<div class="switchBtn">
+<h4 id="dark-mode">Dark Mode</h4>
 <label class="switch">
   <input type="checkbox" class="checkbox">
   <span class="slider round"></span>
 </label>
-</h4>
+</div>
+</div>
+<!-- first bar of bricks social media - top page -->
   <div class="container">
     <div class="fb light dark">
       <p class="nickname"><img src="/images/icon-facebook.svg" alt=""> @nathanf</p>
@@ -56,42 +59,72 @@
     </div>
   </div>
 
+<H1>Overview - Today</H1>
+<div class="bottom-section">
+  <div class="social-media">
+    <div class="top">
+      <p>Page Views</p><img src="/images/icon-facebook.svg" alt="">
+    </div>
+    <div class="bottom">
+    <h6>87</h6>
+    <p>3%</p>
+    </div>
+  </div>
 
-<!-- 
-  Overview - Today
+  <div class="social-media">
+    <div class="top">
+      <p>Likes</p><img src="/images/icon-facebook.svg" alt="">
+    </div>
+    <div class="bottom">
+      <h6>52</h6>
+      <p>2%</p>
+    </div>
+  </div>
+  <div class="social-media">
+    <div class="top">
+      <p>Likes</p><img src="/images/icon-instagram.svg" alt="">
+    </div>
+  <div class="bottom">
+    <h6>5462</h6>
+    <p>2257%</p>
+  </div>  
+  </div>
 
-  Page Views
-  87
-  3%
+  <div class="social-media">
+    <div class="top">
+      <p>Profile Views</p><img src="/images/icon-instagram.svg" alt=""></div>
+  <div class="bottom">
+    <h6>52k</h6>
+    <p>1375%</p>
+  </div>
+  </div>
+  <div class="social-media">
+    <div class="top">
+      <p>Retweets</p><img src="/images/icon-twitter.svg" alt=""></div>
+  <div class="bottom"><h6>117</h6>
+  <p>303%</p>
+</div>
+  </div>
+  <div class="social-media">
+    <div class="top">
+      <p>Likes</p><img src="/images/icon-twitter.svg" alt=""></div>
+  <div class="bottom"><h6>507</h6>
+  <p>553%</p></div>
+  </div>
+  <div class="social-media">
+    <div class="top">
+      <p>Likes</p><img src="/images/icon-youtube.svg" alt=""></div>
+  <div class="bottom"><h6>107</h6>
+  <p>19%</p></div>
+  </div>
+  <div class="social-media">
+    <div class="top">
+      <p>Total Views</p><img src="/images/icon-youtube.svg" alt=""></div>
+  <div class="bottom"><h6>1407</h6>
+  <p>12%</p></div>
+  </div>
+</div>
 
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-   -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Santiago</a>.
