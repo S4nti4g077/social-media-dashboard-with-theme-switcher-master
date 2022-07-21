@@ -1,7 +1,7 @@
 const checkbox = document.querySelector(".checkbox");
 const body = document.querySelector(".body");
 const container = document.querySelector(".container");
-const containers = container.getElementsByClassName("light");
+const containers = container.querySelectorAll(".light");
 
 checkbox.addEventListener("change", function () {
   if (this.checked) {
