@@ -140,7 +140,14 @@ body {
 }
 
 .bottom > p {
-  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 0.8rem;
+}
+.red1 > p {
+  color: hsl(356, 69%, 56%);
+}
+.green > p {
+  color: hsl(163, 72%, 41%);
 }
 .bottom > h6 {
   font-size: 2rem;
