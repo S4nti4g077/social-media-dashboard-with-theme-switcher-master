@@ -154,3 +154,13 @@ body {
   margin: 0px;
   margin-left: 10px;
 }
+
+#overview {
+  margin-left: 7.5vw;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 5vh;
+  right: 40vw;
+}
